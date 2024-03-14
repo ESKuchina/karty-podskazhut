@@ -39,7 +39,7 @@ figure {
 }
 
 .header {
-  padding-top: 10vw;
+  padding-top: 10%;
 }
 
 .heading {
@@ -120,8 +120,8 @@ figure {
 
 .content__title {
   font-size: 30px;
-  margin-top: 7vw;
-  margin-bottom: 2.5vw;
+  margin-top: 7%;
+  margin-bottom: 2.5%;
 }
 
 .content__text-block {
@@ -132,8 +132,7 @@ figure {
   margin-bottom: 1.5em;
 }
 
-.content__text-block_type_first-lettered
-  .content__paragraph:first-child::first-letter {
+.content__text-block_type_first-lettered .content__paragraph:first-child::first-letter {
   display: inline-block;
   background-color: var(--accent-color, #ffab6b);
   padding: 0 4px;
@@ -142,9 +141,7 @@ figure {
   font-weight: 700;
 }
 
-.theme_dark
-  .content__text-block_type_first-lettered
-  .content__paragraph:first-child::first-letter {
+.theme_dark .content__text-block_type_first-lettered .content__paragraph:first-child::first-letter {
   border: 1px solid currentColor;
 }
 
@@ -167,6 +164,7 @@ figure {
   text-align: center;
   padding: 20px 0;
   border-bottom: var(--text-color) solid 1px;
+  line-height: 21px;
 }
 
 .content__blockquote {
@@ -185,7 +183,7 @@ a:focus-visible {
 }
 
 a:hover {
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 .content__card {
@@ -258,7 +256,7 @@ a:hover {
 
 .footer {
   border-top: 1px solid currentColor;
-  margin-top: 10vw;
+  margin-top: 10%;
 }
 
 .footer__copyright {

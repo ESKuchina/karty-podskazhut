@@ -235,12 +235,12 @@ a:hover {
 .colored__text::after {
   content: "";
   position: absolute;
-  width: 7.5ch;
-  height: 0.4ch;
+  width: calc(100% + 7px);
+  height: 15px;
   background-color: var(--accent-color, #ffab6b);
   z-index: -1;
-  top: 0.6em;
-  right: -0.25ch;
+  bottom: 8px;
+  right: -4px;
 }
 
 .theme_dark .colored__text::after {
